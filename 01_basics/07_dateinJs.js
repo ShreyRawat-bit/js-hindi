@@ -1,0 +1,22 @@
+let myDate=new Date()
+console.log(myDate)
+console.log(myDate.toLocaleString())
+console.log(myDate.toDateString())
+let newDate=new Date(2023,0,23)
+console.log(newDate.toDateString())
+let newDate2=new Date("01-11-2023")
+console.log(newDate2.toDateString())
+let newDate3=new Date("11-15-2023")
+console.log(newDate3.toDateString())
+console.log(newDate2.toLocaleString())
+console.log(newDate3.toLocaleString())
+let hidate=Date.now()
+console.log(hidate)
+console.log(newDate2.getTime())
+console.log(Math.floor(myDate/1000))
+console.log(newDate2.getMonth())
+let datefinal=new Date()
+console.log(datefinal.toLocaleString('default',{
+    weekday:"long"
+}))
+ 
